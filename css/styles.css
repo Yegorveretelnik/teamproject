@@ -15,3 +15,22 @@ ul {
     list-style: none;
 }
 
+.footer {
+    background-color: #0C0C0C;
+    color: #FBFBFB;
+    border-radius: 30px;
+    padding: 40px 40px 28px 40px;
+
+}
+
+
+.footer-three {
+    color: #FBFBFB80;
+    
+}
+ 
+
+@media (min-width: 768px) {
+.footer1 {
+    display: none;
+}  }
