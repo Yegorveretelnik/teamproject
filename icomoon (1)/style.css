@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-Vector-13 {
+  width: 568em;
+}
+
+.icon-Youtube {
+  width: 1.3330078125em;
+}
+
+.icon-Facebook {
+  width: 0.4287109375em;
+}
+
+.icon-burger {
+  width: 1.125em;
+}
+
+.icon-email {
+  width: 0.75em;
+}
+
+.icon-phone {
+  width: 0.75em;
+}
+
+.icon-iconsend {
+  width: 1.2001953125em;
+}
+
+.icon-Vector {
+  width: 1.25em;
+}
