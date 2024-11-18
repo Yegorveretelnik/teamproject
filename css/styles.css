@@ -2,7 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    line-height: 1.5
+    line-height: 1.5;
+    
 }
 
 
@@ -13,24 +14,136 @@ a {
 
 ul {
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
+
+
 
 .footer {
     background-color: #0C0C0C;
     color: #FBFBFB;
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
+    font-size: 14px;
+    width: 100%;
+    
 
 }
 
+.footer-logo {
+    font-size: 20px;
+}
+
+.footer-header, .footer-header-tabletmobile {
+
+    font-size: 28px;
+    max-width: 523px;
+    text-align: center;
+}
+
+.footer-header-tabletmobile
+
+{
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    
+}
+
+.footer-phone {
+    border: 1px solid;
+    border-radius: 16px;
+    max-width: 160px;
+    height: 48px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.footer-one, .footer-social, .footer-two, .footer-three, .footer-links, .footer-termsprivacy {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-links {
+    gap: 40px;
+}
+
+.footer-termsprivacy {
+    gap: 20px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-two {
+    margin-top: 126px;
+    align-items: center;
+}
 
 .footer-three {
     color: #FBFBFB80;
+    margin-top: 28px;
+    align-items: center;
     
 }
  
+@media screen and (max-width: 1157px) {
+    .footer-header {
+        display: none;
+    }
+}
 
-@media (min-width: 768px) {
-.footer1 {
-    display: none;
-}  }
+@media screen and (min-width: 1157px) {
+    .footer-header-tabletmobile {
+        display: none;
+    }
+}
+
+.footer-address {
+    margin-left: 62px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 16px;
+    }
+
+  .footer-one {
+    flex-direction: column;
+    
+  }
+
+   .footer-three {
+        display: block;
+    }
+
+.footer-social {
+    width: 122px;
+}
+
+.footer-phone {
+    margin-top: 20px;
+    
+}
+
+.footer-termsprivacy {
+    justify-content: flex-start;
+}
+
+}
+
+@media screen (min-width: 768px) and (max-width: 1157px) {
+    .footer-links {
+        gap: 19px;
+    }
+
+
+}
+
