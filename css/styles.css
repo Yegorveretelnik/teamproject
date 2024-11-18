@@ -40,6 +40,9 @@ ul {
     font-size: 28px;
     max-width: 523px;
     text-align: center;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.05em;
 }
 
 .footer-header-tabletmobile
@@ -70,6 +73,7 @@ ul {
 
 .footer-links {
     gap: 40px;
+    white-space: nowrap
 }
 
 .footer-termsprivacy {
